@@ -1,0 +1,163 @@
+/*:root {*/
+/*    font-size: 62.5%;*/
+/*}*/
+
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*    text-size-adjust: none;*/
+/*    -webkit-text-size-adjust: none;*/
+/*}*/
+
+button:hover {
+    cursor: pointer;
+}
+
+/*body {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    background-color: #EAE6E5;*/
+/*}*/
+
+.heading {
+    margin: 3rem 0 5rem 0;
+}
+
+.title, .sub-title {
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #12130F;
+}
+
+.sub-title {
+    font-size: 1.5rem;
+    color: #8F8073;
+}
+
+.user p {
+    text-align: right;
+}
+
+.user-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.user-input label {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.user-input input {
+    width: 80%;
+    max-width: 35rem;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #9b8774ad;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    margin: 1rem 1rem 2rem 1rem;
+}
+
+.button {
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+    margin-bottom: 3rem;
+    background-color: #5b92799d;
+    color: #12130F;
+    font-family: 'Poppins', sans-serif;
+}
+
+.qr-code {
+    border-top: 0.5rem solid #fafafa;
+    border-right: 0.5rem solid #fafafa;
+    border-bottom: 1rem solid #fafafa;
+    border-left: 0.5rem solid #fafafa;
+    background-color: #fafafa;
+}
+
+.qr-code button {
+    display: flex;
+    justify-content: center;
+    background-color: DodgerBlue;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 100%;
+    margin-bottom: 1rem;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.qr-code button a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(7, 7, 7, 0.75); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.47); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.custom-modal-content {
+    background-color: rgba(7, 7, 7, 0.73);
+    position: center;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 250px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: default;
+}
+
+.container_fill_parent {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.p-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
