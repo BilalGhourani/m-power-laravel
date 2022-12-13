@@ -1606,7 +1606,7 @@ proto._getMeasurement = function( measurement, size ) {
 
 /**
  * layout a collection of item elements
- * @api public
+ * @api public_html
  */
 proto.layoutItems = function( items, isInstant ) {
   items = this._getItemsForLayout( items );
@@ -3235,7 +3235,7 @@ var trim = String.prototype.trim ?
 
   /**
    * @params {Array} elems
-   * @public
+   * @public_html
    */
   proto.updateSortData = function( elems ) {
     // get items
