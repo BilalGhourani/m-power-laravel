@@ -22,6 +22,7 @@ $(document).ready(function () {
 
     $("#search").click(function (e) {
         e.preventDefault();
+        resetInputs();
         search();// fillFakeData();
 
     });
@@ -48,6 +49,21 @@ $(document).ready(function () {
                 alert("Request failed: " + xhr.responseJSON.message);
             }
         });
+    }
+
+    function resetInputs() {
+        $("#car_name").text("")
+        $("#plate_first_number").text("")
+        $("#car_type_code").text("")
+        $("#plate_second_number").text("")
+        $("#car_color").text("")
+        $("#car_model").text("")
+        $("#current_km").text("")
+        $("#next_km").text("")
+        $("#date_of_changing").text("")
+        $("#user_name").text("")
+        $("#user_number").text("")
+        $("#nearestـdate").text("")
     }
 
     function fillData(data) {
